@@ -1,0 +1,28 @@
+.contact-page {
+    background-color: #fff;
+    padding: 40px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: auto;
+    font-family: 'Times New Roman', Times, serif;
+}
+.contact-page h1 {
+    margin-bottom: 30px;
+    font-family: 'Georgia', serif;
+    font-size: 2.5em;
+}
+.contact-page .form-group label {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+.contact-page .form-control {
+    border-radius: 0;
+    border: 1px solid #aaa;
+    background-color: #f8f9fa;
+}
+.contact-page .btn {
+    border-radius: 0;
+    font-size: 1.2em;
+}

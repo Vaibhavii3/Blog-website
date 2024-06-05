@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Blog</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/blog.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">My Blog</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="blog.html">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      
+      <div class="container mt-5">
+        <div class="row">
+          <div class="col-md-8">
+            <h1>Blog Post Title</h1>
+            <p class="text-muted">Posted on June 4, 2024, by Author Name</p>
+            <img src="img/b1.jpg" class="img-fluid mb-4" alt="...">
+            <p>The full content of the blog post goes here...</p>
+            <!-- Comments Section -->
+            <div class="card my-4">
+              <h5 class="card-header">Leave a Comment:</h5>
+              <div class="card-body">
+                <form>
+                  <div class="form-group">
+                    <textarea class="form-control" rows="3"></textarea>
+                  </div>
+                  <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+              </div>
+            </div>
+            <!-- Existing Comments -->
+            <div class="media mb-4">
+              <img class="d-flex mr-3 rounded-circle" src="img/c1.jpg" alt="">
+              <div class="media-body">
+                <h5 class="mt-0">Commenter Name</h5>
+                The comment text goes here...
+              </div>
+            </div>
+            <!-- Add more comments as needed -->
+          </div>
+          <div class="col-md-4">
+            <!-- Sidebar content can be reused from the home page -->
+          </div>
+        </div>
+      </div>
+      
+      <footer class="bg-light text-center text-lg-start">
+        <div class="container p-4">
+          <div class="row">
+            <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+              <h5 class="text-uppercase">My Blog</h5>
+              <p>Some footer content here...</p>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <h5 class="text-uppercase">Links</h5>
+              <ul class="list-unstyled mb-0">
+                <li>
+                  <a href="#" class="text-dark">Home</a>
+                </li>
+                <li>
+                  <a href="#" class="text-dark">About</a>
+                </li>
+                <li>
+                  <a href="#" class="text-dark">Blog</a>
+                </li>
+                <li>
+                  <a href="#" class="text-dark">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="text-center p-3">
+          © 2024 My Blog
+        </div>
+      </footer>
+      
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
