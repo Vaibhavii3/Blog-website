@@ -9,7 +9,7 @@
 </head>
 <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg fixed-top">
         <a class="navbar-brand" href="#">My Blog</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -32,73 +32,87 @@
         </div>
     </nav>
 
-    <div class="container mt-5">
-        <div class="row">
-            <div class="col-md-8">
-                <h1>Recent Posts</h1>
-                <div class="card mb-4">
-                    <img src="img/b1.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Post Title</h5>
-                        <p class="card-text">A brief excerpt of the blog post...</p>
-                        <a href="#" class="btn btn-primary">Read More</a>
-                    </div>
-                </div>
-                <div class="card mb-4">
-                    <img src="img/c1.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Another Post Title</h5>
-                        <p class="card-text">A brief excerpt of another blog post...</p>
-                        <a href="#" class="btn btn-primary">Read More</a>
-                    </div>
-                </div>
-                <!-- Add more blog post cards as needed -->
-            </div>
-            <div class="col-md-4 sidebar">
-                <h2>About Me</h2>
-                <p>A brief introduction about yourself...</p>
-                <h2>Categories</h2>
-                <ul class="list-group">
-                    <li class="list-group-item"><a href="#">Category 1</a></li>
-                    <li class="list-group-item"><a href="#">Category 2</a></li>
-                    <li class="list-group-item"><a href="#">Category 3</a></li>
-                    <!-- Add more categories as needed -->
-                </ul>
-            </div>
-        </div>
-    </div>
+    <!-- top article  -->
 
-    <!-- Footer -->
-    <footer class="bg-light text-center text-lg-start">
-        <div class="container p-4">
-            <div class="row">
-                <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
-                    <h5 class="text-uppercase">My Blog</h5>
-                    <p>Some footer content here...</p>
+    <section class="article-box">
+        <div class="row">
+            <h2 class="heading ml-5 mt-5 pt-3 text-white">Top Articles</h2>
+
+            <div class="col-md-12 card-box m-3">
+
+                <div class="cards">
+                    <h4 class="title ml-2 mt-2">Title</h4>
+                    <img src="img/b1.jpg" alt="" class="img-fluid mx-auto d-block">
+                    <p class="author ml-2 mt-2">Vaibhavi</p>
+                    <span class="date ml-2 mt-2">15 jun 2024</span>
                 </div>
-                <!-- <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-                    <h5 class="text-uppercase">Links</h5>
-                    <ul class="list-unstyled mb-0 d-flex">
-                        <li>
-                            <a href="#" class="text-dark">Home</a>
-                        </li>
-                        <li>
-                            <a href="#" class="text-dark">About</a>
-                        </li>
-                        <li>
-                            <a href="#" class="text-dark">Blog</a>
-                        </li>
-                        <li>
-                            <a href="#" class="text-dark">Contact</a>
-                        </li>
-                    </ul>
-                </div> -->
+                
+                <div class="cards">
+                    <h4 class="title ml-2 mt-2">Title</h4>
+                    <img src="img/b1.jpg" alt="" class="img-fluid mx-auto d-block">
+                    <p class="author ml-2 mt-2">Vaibhavi</p>
+                    <span class="date ml-2 mt-2">15 jun 2024</span>
+                </div>
+
+                <div class="cards">
+                    <h4 class="title ml-2 mt-2">Title</h4>
+                    <img src="img/b1.jpg" alt="" class="img-fluid mx-auto d-block">
+                    <p class="author ml-2 mt-2">Vaibhavi</p>
+                    <span class="date ml-2 mt-2">15 jun 2024</span>
+                </div>
+                
+                <div class="cards">
+                    <h4 class="title ml-2 mt-2">Title</h4>
+                    <img src="img/b1.jpg" alt="" class="img-fluid mx-auto d-block">
+                    <p class="author ml-2 mt-2">Vaibhavi</p>
+                    <span class="date ml-2 mt-2">15 jun 2024</span>
+                </div>
+
             </div>
         </div>
-        <div class="text-center p-3 bg-light">
-            © 2024 My Blog
+
+    </section>
+
+    <!-- category  -->
+
+    <section class="category">
+        <h2 class="heading ml-5 mt-4 text-white">Top category</h2>
+        <div class="row">
+            <div class="col-md-12 category-box m-3">
+
+                <div class="box">
+                    <img src="img/E1.jpg" alt="" class="img-fluid mx-auto d-block category-img">
+                    <p class="name text-center pt-3"> Tech</p>
+                </div>
+
+                <div class="box">
+                    <img src="img/E1.jpg" alt="" class="img-fluid mx-auto d-block category-img">
+                    <p class="name text-center pt-3"> Tech</p>
+                </div>
+
+                <div class="box">
+                    <img src="img/E1.jpg" alt="" class="img-fluid mx-auto d-block category-img">
+                    <p class="name text-center pt-3"> Tech</p>
+                </div>
+
+                <div class="box">
+                    <img src="img/E1.jpg" alt="" class="img-fluid mx-auto d-block category-img">
+                    <p class="name text-center pt-3"> Tech</p>
+                </div>
+
+                <div class="box">
+                    <img src="img/E1.jpg" alt="" class="img-fluid mx-auto d-block category-img">
+                    <p class="name text-center pt-3"> Tech</p>
+                </div>
+
+            </div>
         </div>
-    </footer>
+
+    </section>
+    
+
+    
+    
     
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>

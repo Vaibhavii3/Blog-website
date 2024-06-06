@@ -1,6 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
 /* General Styles */
 body {
     font-family: 'Arial', sans-serif;
+    background: url('/img/c1.jpg') no-repeat center fixed;
+    background-size: cover;
     background-color: #f8f9fa;
     color: #333;
     line-height: 1.6;
@@ -26,7 +35,10 @@ a:hover {
 .navbar {
     margin-bottom: 20px;
     box-shadow: 0 4px 6px -6px #222;
-    background-color: #343a40; /* Dark Gray */
+    /* background-color: #343a40;  */
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    
 }
 
 .navbar-brand {
@@ -41,126 +53,55 @@ a:hover {
     color: #007bff; /* Blue */
 }
 
-/* Card Styles */
-.card {
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    border: none;
-    background-color: #fff; /* White */
+.card-box {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 15px;
 }
 
-.card-img-top {
-    max-height: 300px;
-    object-fit: cover;
+.cards{
+    border: 2px solid blue;
+    /* background-color: rgb(82, 81, 81); */
+    color: #fff;
 }
 
-.card-title {
-    font-size: 1.5rem;
-    margin-bottom: 10px;
-    color: #333; /* Dark Gray */
+.cards img{
+    height: 200px;
+    width: 350px;
+    border-radius: 10px;
 }
 
-.card-text {
-    font-size: 1rem;
-    color: #555; /* Gray */
-}
-
-/* Sidebar Styles */
-.sidebar h2 {
-    font-size: 1.5rem;
-    margin-bottom: 10px;
-    color: #333; /* Dark Gray */
-}
-
-.sidebar p {
-    font-size: 1rem;
-    color: #555; /* Gray */
-}
-
-.sidebar ul {
-    list-style: none;
-    padding-left: 0;
-}
-
-.sidebar ul li {
-    padding: 10px 0;
-    border-bottom: 1px solid #ddd; /* Light Gray */
-    font-size: 1rem;
-}
-
-.sidebar ul li a {
-    color: #007bff; /* Blue */
-    text-decoration: none;
-}
-
-.sidebar ul li a:hover {
-    text-decoration: underline;
-}
-
-/* Footer Styles */
-footer {
-    background-color: #343a40; /* Dark Gray */
-    color: #fff; /* White */
-    padding: 20px 0;
-    text-align: center;
-    margin-top: 40px;
-    box-shadow: 0 -4px 6px -6px #222;
-}
-
-footer h5 {
-    font-size: 1.5rem;
-    margin-bottom: 10px;
-}
-
-footer p {
-    font-size: 1rem;
-    margin: 0;
-}
-
-footer ul {
-    list-style: none;
-    padding-left: 0;
-}
-
-footer ul li {
-    padding: 5px 0;
-}
-
-footer ul li a {
-    color: #fff; /* White */
-    text-decoration: none;
-}
-
-footer ul li a:hover {
-    text-decoration: underline;
-}
-
-footer .p-3 {
-    background-color: #454d55; /* Dark Gray */
-}
-
-
-/* Contact Page Styles */
-.contact-page {
-    background: #fff;
+.cards {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 0px solid rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
     padding: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    color: white;
 }
 
-.contact-page h1 {
-    font-size: 2rem;
-    margin-bottom: 20px;
+.category-box {
+    /* display: grid;
+    grid-template-columns: repeat(6,1fr); */
+    display: flex;
+    gap: 50px;
 }
 
-.contact-page .form-group {
-    margin-bottom: 20px;
+.box img{
+    height: 100px;
+    width: 100px;
 }
 
-.contact-page .btn {
-    background-color: #007bff;
-    border: none;
+.box  {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 0px solid rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    color: white;
+    height: 180px;
 }
-
-.contact-page .btn:hover {
-    background-color: #0056b3;
-}
-
