@@ -18,12 +18,12 @@ body {
 }
 
 a {
-    color: #007bff;
+    color: #fff;
     text-decoration: none;
 }
 
 a:hover {
-    color: #0056b3;
+    color: #3a9630;
     text-decoration: underline;
 }
 
@@ -50,7 +50,7 @@ a:hover {
 }
 
 .nav-link:hover {
-    color: #007bff; /* Blue */
+    color: ; /* Blue */
 }
 
 .card-box {
@@ -95,13 +95,94 @@ a:hover {
 }
 
 .box  {
+    /* background: rgba(255, 255, 255, 0.1); */
+    /* backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 0px solid rgba(255, 255, 255, 0.3); */
+    border-radius: 10px;  
+    padding: 20px;
+    /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
+    color: rgb(0, 0, 0);
+    background-color: #fff;
+    height: 180px;
+}
+
+.blog-box{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    /* border: 2px solid red; */
+}
+
+.blog{
+    background-color: #f8f9fa;
+    overflow: hidden;
+    color: #000;
+}
+
+.blog-img {
+    cursor: pointer;
+    transition: all ease 2s;
+    /* border: 2px solid red; */
+    object-fit: cover;
+    /* height: 400px; */
+}
+
+.blog-img:hover {
+    transform: scale(1.1);
+}
+
+.btn{
+    background-color: black;
+    color: #fff;
+}
+
+.btn:hover {
+    background-color: #3a9630;
+    color: #fff;
+}
+
+.icon {
+    color: #000;
+    cursor: pointer;
+}
+
+
+.icon:hover{
+    color: rgb(58, 150, 48);
+
+}
+
+.about-header {
+    background: url('your-background-image.jpg') no-repeat center center;
+    background-size: cover;
+    color: white;
+    padding: 100px 0;
+}
+.about-header h1 {
+    font-size: 3rem;
+}
+.author-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.container {
+    color: #fff;
+}
+
+.contact-container {
     background: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
     border: 0px solid rgba(255, 255, 255, 0.3);
     border-radius: 10px;
-    padding: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     color: white;
-    height: 180px;
 }
